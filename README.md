@@ -33,7 +33,7 @@
   * [连接mysql远程服务器](https://blog.kinpzz.com/2017/06/04/connect-mysql-server/)
 
 * [deng](http://blog.csdn.net/zhzdeng)
-* [Ecplise集成PMD](http://blog.csdn.net/zhzdeng/article/details/70041309)
-* [在Eclipse上集成Checkstyle](http://blog.csdn.net/zhzdeng/article/details/69831491)
-* [curl命令使用](http://blog.csdn.net/zhzdeng/article/details/52683106)
+  * [Ecplise集成PMD](http://blog.csdn.net/zhzdeng/article/details/70041309)
+  * [在Eclipse上集成Checkstyle](http://blog.csdn.net/zhzdeng/article/details/69831491)
+  * [curl命令使用](http://blog.csdn.net/zhzdeng/article/details/52683106)
 
