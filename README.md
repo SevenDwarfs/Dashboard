@@ -25,6 +25,7 @@
 - 完成 管理员登录 增删改查 功能
 #### Iteration 3
 - 为 电影 添加图集
+- 添加 订单 功能 创建订单/查询订单
 ## 技术博客 (Tech Blog)
 
 * [Kinpzz](https://github.com/Kinpzz)
