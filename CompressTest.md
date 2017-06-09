@@ -24,19 +24,26 @@ Jmeter+badboy
 用Jmeter创建测试计划，增加监听器
 
 
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/2.png)
+
 ## 测试结果
 单用户访问，错误率为0
 
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/3.png)
 
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/4.png)
 
 10个用户访问，错误率为0
 
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/5.png)
 
-
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/6.png)
 
 100用户访问，可以看到有一个响应的错误率为100%了，已经到达了瓶颈
 
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/7.png)
 
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/8.png)
 
 ## 测试结果分析
 1：可以看到，该系统大概只能支持10多个用户的同时访问。
