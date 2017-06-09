@@ -4,36 +4,36 @@
 
 
 ## 测试目的
-1：为了确定此电影购票系统系统的瓶颈或者最大使用极限的。
-2：为了考察系统在极端条件下的表现是否稳定。
-3：为了验证极端条件可以是超负荷的交易量和并发用户数，并且服务器不会崩溃。
-4：确定系统最大吞吐量和并发量。
+- 1：为了确定此电影购票系统系统的瓶颈或者最大使用极限的。
+- 2：为了考察系统在极端条件下的表现是否稳定。
+- 3：为了验证极端条件可以是超负荷的交易量和并发用户数，并且服务器不会崩溃。
+- 4：确定系统最大吞吐量和并发量。
 ## 测试工具
-Jmeter+badboy
+- Jmeter+badboy
 ## 测试环境
-服务器：单核CPU，1G内存
-发起请求测试机：win10系统，I5处理器，8G内存
+- 服务器：单核CPU，1G内存
+- 发起请求测试机：win10系统，I5处理器，8G内存
 ## 测试过程
-首先使用badboy录制脚本：录制的步骤是，登陆首页，点击购票，查看座位，回到首页，点击另一部电影购票，查看座位。
+- 首先使用badboy录制脚本：录制的步骤是，登陆首页，点击购票，查看座位，回到首页，点击另一部电影购票，查看座位。
 
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/1.png)
 
 
-导出.jmx格式文件
+- 导出.jmx格式文件
 
-用Jmeter创建测试计划，增加监听器
+- 用Jmeter创建测试计划，增加监听器
 
 
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/2.png)
 
 ## 测试结果
-单用户访问，错误率为0
+- 单用户访问，错误率为0
 
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/3.png)
 
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/4.png)
 
-10个用户访问，错误率为0
+- 10个用户访问，错误率为0
 
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/5.png)
 
@@ -46,7 +46,7 @@ Jmeter+badboy
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/8.png)
 
 ## 测试结果分析
-1：可以看到，该系统大概只能支持10多个用户的同时访问。
-2：在10个人以下访问的话，系统的表现是良好正常的。
-3：并且在超负荷下，服务器会短暂崩溃，在停止访问之后，可以正常访问。
-4：该系统的吞吐量为70byte/sec，并发量为10。
+- 1：可以看到，该系统大概只能支持10多个用户的同时访问。
+- 2：在10个人以下访问的话，系统的表现是良好正常的。
+- 3：并且在超负荷下，服务器会短暂崩溃，在停止访问之后，可以正常访问。
+- 4：该系统的吞吐量为70byte/sec，并发量为10。
