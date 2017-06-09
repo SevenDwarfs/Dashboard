@@ -1,44 +1,45 @@
-# Dashboard
-迭代记录 (Iteration Records), 文档 (Documentations), 接口 (API) , 技术博客 (Tech Blog)
+#订你所订--电影购票网压测报告
 
-## 接口 (API)
+
+
+
+##测试目的
+1：为了确定此电影购票系统系统的瓶颈或者最大使用极限的。
+2：为了考察系统在极端条件下的表现是否稳定。
+3：为了验证极端条件可以是超负荷的交易量和并发用户数，并且服务器不会崩溃。
+4：确定系统最大吞吐量和并发量。
+##测试工具
+Jmeter+badboy
+##测试环境
+服务器：单核CPU，1G内存
+发起请求测试机：win10系统，I5处理器，8G内存
+##测试过程
+首先使用badboy录制脚本：录制的步骤是，登陆首页，点击购票，查看座位，回到首页，点击另一部电影购票，查看座位。
+
 ![image](https://github.com/SevenDwarfs/Dashboard/blob/master/1.png)
-### Web Service Server API
 
-* [Restful 后端服务 API](https://github.com/SevenDwarfs/WebService/blob/dev/doc/API.md)
 
-## 文档 (Documentations)
+导出.jmx格式文件
 
-* 需求文档
+用Jmeter创建测试计划，增加监听器
 
-## 迭代记录 (Iteration Records)
-### RESTful后端服务
-#### Iteration 1
-- 引用代码质量管理插件PMD
-- 引入代码风格管理插件checksylye
-- 完成 电影，演员 领域建模
-- 完成 电影，演员 查询功能模块
-#### Iteration 2
-- 使用 logback 日志管理
-- 完成 影院，排片 查询功能
-- 完成 用户注册/登录 功能
-- 完成 管理员登录 增删改查 功能
-#### Iteration 3
-- 为 电影 添加图集
-- 添加 订单 功能 创建订单/查询订单
-## 技术博客 (Tech Blog)
 
-* [Kinpzz](https://github.com/Kinpzz)
-  * [GitHub+Travis CI 持续集成](https://blog.kinpzz.com/2017/04/09/GitHub-Travis-CI/)
-  * [Docker 入门 & CI/CD实践](https://blog.kinpzz.com/2017/05/16/docker-ci-cd/)
-  * [连接mysql远程服务器](https://blog.kinpzz.com/2017/06/04/connect-mysql-server/)
+##测试结果
+单用户访问，错误率为0
 
-* [deng](http://blog.csdn.net/zhzdeng)
-  * [Ecplise集成PMD](http://blog.csdn.net/zhzdeng/article/details/70041309)
-  * [在Eclipse上集成Checkstyle](http://blog.csdn.net/zhzdeng/article/details/69831491)
-  * [curl命令使用](http://blog.csdn.net/zhzdeng/article/details/52683106)
 
-* [luoweijin](http://blog.csdn.net/luosaosao)
-  * [压力测试步骤](http://blog.csdn.net/luosaosao/article/details/72900072)
-  * [spring之注释@Autowired、@Resourse](http://blog.csdn.net/luosaosao/article/details/61636667)
-  * [ Windows下如何使用git管理github ](http://blog.csdn.net/luosaosao/article/details/63684470)
+
+10个用户访问，错误率为0
+
+
+
+
+100用户访问，可以看到有一个响应的错误率为100%了，已经到达了瓶颈
+
+
+
+##测试结果分析
+1：可以看到，该系统大概只能支持10多个用户的同时访问。
+2：在10个人以下访问的话，系统的表现是良好正常的。
+3：并且在超负荷下，服务器会短暂崩溃，在停止访问之后，可以正常访问。
+4：该系统的吞吐量为70byte/sec，并发量为10。
