@@ -26,18 +26,21 @@
 #### Iteration 3
 - 为 电影 添加图集
 - 添加 订单 功能 创建订单/查询订单
+## 测试 (Test)
+
+* [压力测试](/article/StressTest.md)
+
 ## 技术博客 (Tech Blog)
 
 * [Kinpzz](https://github.com/Kinpzz)
+  * [Jenkins + Docker 项目持续部署实践](https://blog.kinpzz.com/2017/06/08/jenkins-docker-ci-cd/)
   * [GitHub+Travis CI 持续集成](https://blog.kinpzz.com/2017/04/09/GitHub-Travis-CI/)
   * [Docker 入门 & CI/CD实践](https://blog.kinpzz.com/2017/05/16/docker-ci-cd/)
   * [连接mysql远程服务器](https://blog.kinpzz.com/2017/06/04/connect-mysql-server/)
-
 * [deng](http://blog.csdn.net/zhzdeng)
   * [Ecplise集成PMD](http://blog.csdn.net/zhzdeng/article/details/70041309)
   * [在Eclipse上集成Checkstyle](http://blog.csdn.net/zhzdeng/article/details/69831491)
   * [curl命令使用](http://blog.csdn.net/zhzdeng/article/details/52683106)
-
 * [luoweijin](http://blog.csdn.net/luosaosao)
   * [压力测试步骤](http://blog.csdn.net/luosaosao/article/details/72900072)
   * [spring之注释@Autowired、@Resourse](http://blog.csdn.net/luosaosao/article/details/61636667)

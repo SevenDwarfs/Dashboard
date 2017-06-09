@@ -1,4 +1,4 @@
-# 订你所订--电影购票网压测报告
+# 订你所想--电影购票网压测报告
 
 
 
@@ -16,7 +16,7 @@
 ## 测试过程
 - 首先使用badboy录制脚本：录制的步骤是，登陆首页，点击购票，查看座位，回到首页，点击另一部电影购票，查看座位。
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/1.png)
+![image](./src/1.png)
 
 
 - 导出.jmx格式文件
@@ -24,26 +24,26 @@
 - 用Jmeter创建测试计划，增加监听器
 
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/2.png)
+![image](./src/2.png)
 
 ## 测试结果
 - 单用户访问，错误率为0
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/3.png)
+![image](./src/3.png)
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/4.png)
+![image](./src/4.png)
 
 - 10个用户访问，错误率为0
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/5.png)
+![image](./src/5.png)
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/6.png)
+![image](./src/6.png)
 
 100用户访问，可以看到有一个响应的错误率为100%了，已经到达了瓶颈
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/7.png)
+![image](./src/7.png)
 
-![image](https://github.com/SevenDwarfs/Dashboard/blob/master/8.png)
+![image](./src/7.png)
 
 ## 测试结果分析
 - 1：可以看到，该系统大概只能支持10多个用户的同时访问。
