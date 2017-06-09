@@ -38,3 +38,7 @@
   * [在Eclipse上集成Checkstyle](http://blog.csdn.net/zhzdeng/article/details/69831491)
   * [curl命令使用](http://blog.csdn.net/zhzdeng/article/details/52683106)
 
+* [luoweijin](http://blog.csdn.net/luosaosao)
+  * [压力测试步骤](http://blog.csdn.net/luosaosao/article/details/72900072)
+  * [spring之注释@Autowired、@Resourse](http://blog.csdn.net/luosaosao/article/details/61636667)
+  * [ Windows下如何使用git管理github ](http://blog.csdn.net/luosaosao/article/details/63684470)
