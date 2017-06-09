@@ -2,7 +2,7 @@
 迭代记录 (Iteration Records), 文档 (Documentations), 接口 (API) , 技术博客 (Tech Blog)
 
 ## 接口 (API)
-![image](Dashboard/1.png)
+![image](https://github.com/SevenDwarfs/Dashboard/blob/master/1.png)
 ### Web Service Server API
 
 * [Restful 后端服务 API](https://github.com/SevenDwarfs/WebService/blob/dev/doc/API.md)
