@@ -28,7 +28,7 @@
 - 添加 订单 功能 创建订单/查询订单
 ## 测试 (Test)
 
-* [压力测试](/article/StressTest.md)
+* [压力测试](/articles/StressTest.md)
 
 ## 技术博客 (Tech Blog)
 
