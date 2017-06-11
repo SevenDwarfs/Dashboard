@@ -49,9 +49,15 @@
 
 #### Interation 1
 
+* 完成基础首页，详情页功能
+
 #### Interation 2
 
+* 完成电影和订单相关UI
+
 #### Interation 3
+
+* 完成登录和订单生成功能
 
 
 
