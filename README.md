@@ -15,7 +15,7 @@
 * [问卷调查](/documentations/preview/investigation.md)
 * [需求文档](/documentations/preview/prd.md)
 * [非功能性需求](/documentations/preview/supplementary_specification.md)
-* [交互逻辑图](/documentations/preview/prd.md)
+* [交互逻辑图](/documentations/preview/interactive_design.md)
 * [backlog](/documentations/preview/backlog_initial.md)
 
 #### 技术文档
@@ -46,6 +46,10 @@
 - 为 电影 添加图集
 - 添加 订单 功能 创建订单/查询订单
 ### Web 前端
+
+#### 交换逻辑图
+
+![](./documentations/src/interactive_design.jpg)
 
 #### Interation 1
 
